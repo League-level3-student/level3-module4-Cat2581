@@ -48,6 +48,7 @@ public class _00_StackDemo {
         flavors.push("Apple");
         flavors.push("Vanilla");
         flavors.push("Mango");
+        flavors.push("Cookies and Cream");
 
         /*
          * Since Mango was the last one pushed, it will be the first one popped.
@@ -59,6 +60,9 @@ public class _00_StackDemo {
         String topOfStack = flavors.pop();
         System.out.println(topOfStack);
         System.out.println(flavors.pop());
+        System.out.println();
+        System.out.println();
+        System.out.println();
 
         /*
          * Getting the size of the Stack
